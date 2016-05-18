@@ -1,0 +1,16 @@
+@import('stackoverflow-default.css');
+
+
+
+
+body{
+	background: #fff !important;
+}
+.logo-banner{
+	display: none !important;
+}
+body header.clone{
+	background: #4f4f4f;
+	position: static;
+	top: 0;
+}

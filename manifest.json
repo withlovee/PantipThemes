@@ -1,0 +1,13 @@
+{
+  "name": "PantipThemes",
+  "version": "0.1.1",
+  "manifest_version": 2,
+  "description": "With PantipThemes, you surf Pantip with confidence",
+  "content_scripts": [
+    {
+      "matches": ["http://pantip.com/*"],
+      "css": ["css/stackoverflow.css"],
+      "js": ["js/jquery.min.js", "js/stackoverflow.js"]
+    }
+  ]
+}
