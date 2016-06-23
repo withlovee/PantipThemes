@@ -1,16 +1,47 @@
-@import('stackoverflow-default.css');
-
-
-
-
-body{
-	background: #fff !important;
+@import url(stackoverflow-default.css);
+body {
+  background: #fff !important;
 }
-.logo-banner{
-	display: none !important;
+.logo-banner {
+  display: none !important;
 }
-body header.clone{
-	background: #4f4f4f;
-	position: static;
-	top: 0;
+.samgee .display-post-wrapper.main-post .main-post-inner,
+.samgee .display-post-status-leftside,
+.samgee .display-post-wrapper-inner,
+.samgee .display-post-status-leftside,
+.samgee .display-post-wrapper-inner {
+  border: 0 !important;
+  -webkit-box-shadow: 0 0 0 !important;
+  -moz-box-shadow: 0 0 0 !important;
+  box-shadow: 0 0 0 !important;
+  -webkit-border-radius: 0 !important;
+  -moz-border-radius: 0 !important;
+  border-radius: 0 !important;
+}
+header.clone {
+  background: #4f4f4f;
+  position: static;
+  top: 0;
+}
+.samgee .display-post-wrapper.main-post,
+.samgee .top-comment .display-post-story-wrapper,
+.samgee .top-comment .display-post-wrapper-inner,
+.samgee .display-post-wrapper-inner {
+  background: #fff !important;
+}
+.samgee .main-post .display-post-story,
+.samgee .display-post-title,
+.samgee .display-post-number,
+.display-post-story {
+  color: #242729 !important;
+}
+.content {
+  float: left !important;
+  padding: 0 20px !important;
+}
+.display-post-story {
+  width: 728px !important;
+}
+.display-post-status-leftside {
+  padding: 0 !important;
 }
